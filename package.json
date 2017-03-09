@@ -12,7 +12,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies":{
+  "dependencies": {
     "machine": "^12.2.5"
   },
   "devDependencies": {
@@ -21,6 +21,8 @@
   "machinepack": {
     "friendlyName": "validator",
     "machineDir": "machines/",
-    "machines": []
+    "machines": [
+      "validate"
+    ]
   }
 }
