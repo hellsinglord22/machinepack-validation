@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-validator",
+  "version": "0.1.0",
+  "description": "Expand the machinepack made generator",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "validator",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "validator",
+    "machineDir": "machines/",
+    "machines": []
+  }
+}
