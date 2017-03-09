@@ -1,5 +1,5 @@
 {
-  "name": "machinepack-validator",
+  "name": "machinepack-extend-validator",
   "version": "0.1.0",
   "description": "Expand the machinepack made generator",
   "scripts": {
